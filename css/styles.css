@@ -1,3 +1,48 @@
+/* ============== COMMON STYLES ============== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .list {
     list-style-type: none;
 }
@@ -15,6 +60,29 @@ body {
     background-color: #FFFFFF;
 }
 
+
+/* ============== HEADER STYLES ============== */
+.page-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    column-gap: 40px;
+}
+
+.contacts {
+    display: flex;
+    column-gap: 40px;
+}
+
+.page-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .logo {
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
@@ -23,6 +91,7 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
+        margin-right: 76px;
 }
 
 .studio-black {
@@ -41,6 +110,9 @@ body {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color:#2E2F42;
+        display: block;
+        padding-top: 24px;
+        padding-bottom: 24px;
 }
 
 .menu-link:hover,
@@ -65,6 +137,7 @@ body {
     color: #404BBF;
 }
 
+/* ============== Section 1 ============== */
 /* section 1 and footer*/
 .first-section,
 .page-footer {
@@ -96,7 +169,8 @@ body {
     background: #404BBF;
 }
 
-/* section 2 and 3 amd 4 */
+/* ============== Section 2 ============== */
+/* section 2 and 3 and 4 */
 .advantage-title,
 .team-title,
 .portfolio-title {
@@ -128,7 +202,7 @@ body {
     }
 
 
-/* section 3  */
+/* ============== Section 3 ============== */
 .third-section {
        background-color: #F4F4FD;
 }
@@ -139,10 +213,10 @@ body {
 
 
 
-/* section 4 */
+/* ============== Section 4 ============== */
 
 
-/* footer */
+/* ============== FOOTER ============== */
 .studio-white {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
