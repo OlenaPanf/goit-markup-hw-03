@@ -73,12 +73,12 @@ body {
 
 .menu {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .contacts {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .page-header-container {
@@ -152,6 +152,10 @@ body {
         background-color: #2E2F42;
 }
 
+.first-section {
+    padding: 188px 0;
+}
+
 .main-title {
         font-size: 56px;
         font-weight: 700;
@@ -160,7 +164,7 @@ body {
         letter-spacing: 0.02em;
         color: #FFFFFF;
         text-align: center;
-        width: 496px;
+        max-width: 496px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 48px;
@@ -225,7 +229,7 @@ body {
 
     .advantage-list {
         display: flex;
-        column-gap: 24px;
+        gap: 24px;
     }
 
     .advantage-item {
@@ -249,24 +253,20 @@ body {
 
 .team-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .team-item {
     background-color: #FFFFFF;
-    padding-bottom: 32px;
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px)/4);
-}
-
-.team-item-img {
-    margin-bottom: 32px;
 }
 
 .card-info {
     width: 232px;
     margin-left: auto;
     margin-right: auto;
+    padding: 32px 0;
 }
 
 .team-text-title,
@@ -293,12 +293,8 @@ body {
     row-gap: 48px;
 }
 
-.portfolio-item {
+.portfolio-list-item {
     width: calc((100% - 48px) / 3);
- }
-
- .portfolio-item-img {
-     
  }
 
  .portfolio-card {
