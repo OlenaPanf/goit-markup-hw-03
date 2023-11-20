@@ -60,6 +60,10 @@ body {
     background-color: #FFFFFF;
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 /* ============== HEADER STYLES ============== */
 .page-navigation {
@@ -81,6 +85,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.page-header {
+    border-bottom: 1px;
+    border-color: #E7E9FC; 
 }
 
 .logo {
@@ -207,11 +216,36 @@ body {
        background-color: #F4F4FD;
 }
 
-.team-list {
-    background-color: #FFFFFF;
+.team-text-title,
+.team-text {
+    text-align: center;
 }
 
+.team-text-title {
+    margin-bottom: 8px;
+}
 
+.team-list {
+    background-color: #FFFFFF;
+    padding-bottom: 32px;
+    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px)/4);
+}
+
+.team-list-img {
+    margin-bottom: 32px;
+}
+
+.team-title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+}
+
+.team-menu {
+    display: flex;
+    column-gap: 24px;
+}
 
 /* ============== Section 4 ============== */
 
