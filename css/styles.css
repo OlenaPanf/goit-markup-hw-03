@@ -263,10 +263,8 @@ body {
 }
 
 .card-info {
-    width: 232px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 32px 0;
+    width: 264px;
+    padding: 32px 16px;
 }
 
 .team-text-title,
